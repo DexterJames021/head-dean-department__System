@@ -1,0 +1,22 @@
+
+To calculate the percentage of points you've earned, you can follow these steps:
+
+Add up the total number of points available, which in this case is 10.
+
+Add up the number of points you earned.
+
+Divide the number of points you earned by the total number of points available.
+
+Multiply the result by 100 to get the percentage.
+
+For example, if you earned 8 points:
+
+Total points available = 10
+
+Points earned = 8
+
+Points earned / Total points available = 8 / 10 = 0.8
+
+Percentage = 0.8 * 100 = 80%
+
+So in this example, you would have earned 80% of the total points available.

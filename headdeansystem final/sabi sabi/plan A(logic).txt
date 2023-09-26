@@ -1,0 +1,15 @@
+//     set1.setText("<html>Total Yes responses: " + set1_yesCount + "<br/>Total No responses: " + set1_noCount + "</html>");
+//     set2.setText("<html>Total Yes responses: " + set2_yesCount + "<br/>Total No responses: " + set2_noCount + "</html>");
+//     set3.setText("<html>Total Yes responses: " + set3_yesCount + "<br/>Total No responses: " + set3_noCount + "</html>");
+
+       // int total = set1_yesCount + set2_yesCount + set3_yesCount; 
+       
+//        if(set1_yesCount > set2_yesCount || set1_yesCount > set3_yesCount ){
+//            JOptionPane.showMessageDialog(this, "mag is ka \n total:"  + set1_yesCount );
+//            
+//        }else if(set2_yesCount > set1_yesCount || set2_yesCount > set3_yesCount){           
+//            JOptionPane.showMessageDialog(this, "mag crim ka \n total:" + set2_yesCount);
+//            
+//        }else if(set3_yesCount > set1_yesCount || set3_yesCount > set2_yesCount){           
+//            JOptionPane.showMessageDialog(this, "mag entrep ka \n total:" + set3_yesCount);
+//        }

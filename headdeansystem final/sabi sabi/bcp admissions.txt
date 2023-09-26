@@ -1,0 +1,37 @@
+Student information:
+- admit type  //
+	- new student
+	- transferee
+	- returnee
+- first name // 
+- middle name // 
+- last name //
+- suffix name //
+- gender //
+- date of birth //
+- status //
+- citizenship //
+- select campus //
+	- BCP Quezon city campus
+	- BCP Bulacan Campus
+- select course //
+	- 
+- select major // 
+	- 
+- address // 
+Contact Number:
+- Email address
+- mobile number
+- telephone number
+  Guardians Infomation:
+- guardian name
+- contact number
+Current or last school attended:
+- school name
+- section
+- school year
+- school type
+How did you learn about BCP:
+- recommended
+- recommended
+- relation

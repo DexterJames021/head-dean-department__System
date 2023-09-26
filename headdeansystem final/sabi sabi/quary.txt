@@ -1,0 +1,30 @@
+MAY  GUMAGAMIT PO
+
+
+QUERY 
+
+cd ..\..
+cd xampp\mysql\bin
+mysql -u root -p
+
+SHOW DATABASES; // ipapakita mga database
+CREATE DATABASE bsis2023; // gaaw ng db
+DROP DATABASE bsis2023; // delete db
+
+use bsis2023;
+SHOW TABLES;
+
+CREATE table users (
+ id INT(255) NOT NULL AUTO_INCREMENT,     // int(length or valueDE)
+ name VARCHAR(255) NOT NULL,
+ age INT(255) NOT NULL,
+ PRIMARY KEY (id));
+
+DESC users;
+
+SELECT * FROM users; // to see makita lahat ng data
+INSERT INTO dbname(name,age)VAULES
+('deter',20);
+
+ALTER TABLE 
+DELETE FROM items WHERE id= 4;

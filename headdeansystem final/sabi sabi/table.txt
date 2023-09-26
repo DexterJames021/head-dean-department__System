@@ -1,0 +1,7 @@
+id 
+idteacher 
+idsubject
+
+subject code = id
+subject name 
+

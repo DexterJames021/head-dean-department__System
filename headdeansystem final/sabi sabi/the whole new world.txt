@@ -1,0 +1,564 @@
+if (
+//set 1        
+(set1_q1_yes.isSelected() || set1_q1_no.isSelected()) &&
+(set1_q2_yes.isSelected() || set1_q2_no.isSelected()) &&
+(set1_q3_yes.isSelected() || set1_q3_no.isSelected()) &&
+(set1_q4_yes.isSelected() || set1_q4_no.isSelected()) &&
+(set1_q5_yes.isSelected() || set1_q5_no.isSelected()) &&
+(set1_q6_yes.isSelected() || set1_q6_no.isSelected()) &&
+(set1_q7_yes.isSelected() || set1_q7_no.isSelected()) &&
+(set1_q8_yes.isSelected() || set1_q8_no.isSelected()) &&
+(set1_q9_yes.isSelected() || set1_q9_no.isSelected()) &&
+(set1_q10_yes.isSelected() || set1_q10_no.isSelected()) &&        
+
+//set 2        
+(set2_q1_yes.isSelected() || set2_q1_no.isSelected()) &&
+(set2_q2_yes.isSelected() || set2_q2_no.isSelected()) &&
+(set2_q3_yes.isSelected() || set2_q3_no.isSelected()) &&
+(set2_q4_yes.isSelected() || set2_q4_no.isSelected()) &&
+(set2_q5_yes.isSelected() || set2_q5_no.isSelected()) &&
+(set2_q6_yes.isSelected() || set2_q6_no.isSelected()) &&
+(set2_q7_yes.isSelected() || set2_q7_no.isSelected()) &&
+(set2_q8_yes.isSelected() || set2_q8_no.isSelected()) &&
+(set2_q9_yes.isSelected() || set2_q9_no.isSelected()) &&
+(set2_q10_yes.isSelected() || set2_q10_no.isSelected()) &&
+
+//set 3        
+(set3_q1_yes.isSelected() || set3_q1_no.isSelected()) &&
+(set3_q2_yes.isSelected() || set3_q2_no.isSelected()) &&
+(set3_q3_yes.isSelected() || set3_q3_no.isSelected()) &&
+(set3_q4_yes.isSelected() || set3_q4_no.isSelected()) &&
+(set3_q5_yes.isSelected() || set3_q5_no.isSelected()) &&
+(set3_q6_yes.isSelected() || set3_q6_no.isSelected()) &&
+(set3_q7_yes.isSelected() || set3_q7_no.isSelected()) &&
+(set3_q8_yes.isSelected() || set3_q8_no.isSelected()) &&
+(set3_q9_yes.isSelected() || set3_q9_no.isSelected()) &&
+(set3_q10_yes.isSelected() || set3_q10_no.isSelected()) &&
+        
+//set 4
+(set4_q1_yes.isSelected() || set4_q1_no.isSelected()) &&
+(set4_q2_yes.isSelected() || set4_q2_no.isSelected()) &&
+(set4_q3_yes.isSelected() || set4_q3_no.isSelected()) &&
+(set4_q4_yes.isSelected() || set4_q4_no.isSelected()) &&
+(set4_q5_yes.isSelected() || set4_q5_no.isSelected()) &&
+(set4_q6_yes.isSelected() || set4_q6_no.isSelected()) &&
+(set4_q7_yes.isSelected() || set4_q7_no.isSelected()) &&
+(set4_q8_yes.isSelected() || set4_q8_no.isSelected()) &&
+(set4_q9_yes.isSelected() || set4_q9_no.isSelected()) &&
+(set4_q10_yes.isSelected() || set4_q10_no.isSelected()) &&
+        
+//set 5
+(set5_q1_yes.isSelected() || set5_q1_no.isSelected()) &&
+(set5_q2_yes.isSelected() || set5_q2_no.isSelected()) &&
+(set5_q3_yes.isSelected() || set5_q3_no.isSelected()) &&
+(set5_q4_yes.isSelected() || set5_q4_no.isSelected()) &&
+(set5_q5_yes.isSelected() || set5_q5_no.isSelected()) &&
+(set5_q6_yes.isSelected() || set5_q6_no.isSelected()) &&
+(set5_q7_yes.isSelected() || set5_q7_no.isSelected()) &&
+(set5_q8_yes.isSelected() || set5_q8_no.isSelected()) &&
+(set5_q9_yes.isSelected() || set5_q9_no.isSelected()) &&
+(set5_q10_yes.isSelected() || set5_q10_no.isSelected()) &&
+        
+//set 6
+(set6_q1_yes.isSelected() || set6_q1_no.isSelected()) &&
+(set6_q2_yes.isSelected() || set6_q2_no.isSelected()) &&
+(set6_q3_yes.isSelected() || set6_q3_no.isSelected()) &&
+(set6_q4_yes.isSelected() || set6_q4_no.isSelected()) &&
+(set6_q5_yes.isSelected() || set6_q5_no.isSelected()) &&
+(set6_q6_yes.isSelected() || set6_q6_no.isSelected()) &&
+(set6_q7_yes.isSelected() || set6_q7_no.isSelected()) &&
+(set6_q8_yes.isSelected() || set6_q8_no.isSelected()) &&
+(set6_q9_yes.isSelected() || set6_q9_no.isSelected()) &&
+(set6_q10_yes.isSelected() || set6_q10_no.isSelected()) &&
+        
+//set 7
+(set7_q1_yes.isSelected() || set7_q1_no.isSelected()) &&
+(set7_q2_yes.isSelected() || set7_q2_no.isSelected()) &&
+(set7_q3_yes.isSelected() || set7_q3_no.isSelected()) &&
+(set7_q4_yes.isSelected() || set7_q4_no.isSelected()) &&
+(set7_q5_yes.isSelected() || set7_q5_no.isSelected()) &&
+(set7_q6_yes.isSelected() || set7_q6_no.isSelected()) &&
+(set7_q7_yes.isSelected() || set7_q7_no.isSelected()) &&
+(set7_q8_yes.isSelected() || set7_q8_no.isSelected()) &&
+(set7_q9_yes.isSelected() || set7_q9_no.isSelected()) &&
+(set7_q10_yes.isSelected() || set7_q10_no.isSelected()) &&
+        
+//set 8
+(set8_q1_yes.isSelected() || set8_q1_no.isSelected()) &&
+(set8_q2_yes.isSelected() || set8_q2_no.isSelected()) &&
+(set8_q3_yes.isSelected() || set8_q3_no.isSelected()) &&
+(set8_q4_yes.isSelected() || set8_q4_no.isSelected()) &&
+(set8_q5_yes.isSelected() || set8_q5_no.isSelected()) &&
+(set8_q6_yes.isSelected() || set8_q6_no.isSelected()) &&
+(set8_q7_yes.isSelected() || set8_q7_no.isSelected()) &&
+(set8_q8_yes.isSelected() || set8_q8_no.isSelected()) &&
+(set8_q9_yes.isSelected() || set8_q9_no.isSelected()) &&
+(set8_q10_yes.isSelected() || set8_q10_no.isSelected())       
+){    
+    //set 1 variable
+    double set1_yesCount = 0;
+    double set1_noCount = 0;
+    
+    //set 2 variable
+    double set2_yesCount = 0;
+    double set2_noCount = 0;
+
+    //set 3 variable
+    double set3_yesCount = 0;
+    double set3_noCount = 0;
+    
+        //set 4 variable
+    double set4_yesCount = 0;
+    double set4_noCount = 0;
+
+        //set 5 variable
+    double set5_yesCount = 0;
+    double set5_noCount = 0;
+    
+        //set 6 variable
+    double set6_yesCount = 0;
+    double set6_noCount = 0;
+    
+        //set 7 variable
+    double set7_yesCount = 0;
+    double set7_noCount = 0;
+
+        //set 8 variable
+    double set8_yesCount = 0;
+    double set8_noCount = 0;
+    
+            //set 9 variable
+    double set9_yesCount = 0;
+    double set9_noCount = 0;
+    
+    //set 1 BSIS
+    if (set1_q1_yes.isSelected()) {
+        set1_yesCount++;       
+    } else if (set1_q1_no.isSelected()) {
+        set1_noCount++;
+    }if (set1_q2_yes.isSelected()) {
+        set1_yesCount++;
+    } else if (set1_q2_no.isSelected()) {
+        set1_noCount++;
+    }if (set1_q3_yes.isSelected()) {
+        set1_yesCount++;
+    } else if (set1_q3_no.isSelected()) {
+        set1_noCount++;
+    }if (set1_q4_yes.isSelected()) {
+        set1_yesCount++;
+    } else if (set1_q4_no.isSelected()) {
+        set1_noCount++;
+    }if (set1_q5_yes.isSelected()) {
+        set1_yesCount++;
+    } else if (set1_q5_no.isSelected()) {
+        set1_noCount++;
+    }if (set1_q6_yes.isSelected()) {
+        set1_yesCount++;
+    } else if (set1_q6_no.isSelected()) {
+        set1_noCount++;
+    }if (set1_q7_yes.isSelected()) {
+        set1_yesCount++;
+    } else if (set1_q7_no.isSelected()) {
+        set1_noCount++;
+    }if (set1_q8_yes.isSelected()) {
+        set1_yesCount++;
+    } else if (set1_q8_no.isSelected()) {
+        set1_noCount++;
+    }if (set1_q9_yes.isSelected()) {
+        set1_yesCount++;
+    } else if (set1_q9_no.isSelected()) {
+        set1_noCount++;
+    }if (set1_q10_yes.isSelected()) {
+        set1_yesCount++;
+    } else if (set1_q10_no.isSelected()) {
+        set1_noCount++;
+    }
+        //set 2 ENTREP 
+    if (set2_q1_yes.isSelected()) {
+        set2_yesCount++;       
+    } else if (set2_q1_no.isSelected()) {
+        set2_noCount++;
+    }if (set2_q2_yes.isSelected()) {
+        set2_yesCount++;
+    } else if (set2_q2_no.isSelected()) {
+        set2_noCount++;
+    }if (set2_q3_yes.isSelected()) {
+        set2_yesCount++;
+    } else if (set2_q3_no.isSelected()) {
+        set2_noCount++;
+    }if (set2_q4_yes.isSelected()) {
+        set2_yesCount++;
+    } else if (set2_q4_no.isSelected()) {
+        set2_noCount++;
+    }if (set2_q5_yes.isSelected()) {
+        set2_yesCount++;
+    } else if (set2_q5_no.isSelected()) {
+        set2_noCount++;
+    }if (set2_q6_yes.isSelected()) {
+        set2_yesCount++;
+    } else if (set2_q6_no.isSelected()) {
+        set2_noCount++;
+    }if (set2_q7_yes.isSelected()) {
+        set2_yesCount++;
+    } else if (set2_q7_no.isSelected()) {
+        set2_noCount++;
+    }if (set2_q8_yes.isSelected()) {
+        set2_yesCount++;
+    } else if (set2_q8_no.isSelected()) {
+        set2_noCount++;
+    }if (set2_q9_yes.isSelected()) {
+        set2_yesCount++;
+    } else if (set2_q9_no.isSelected()) {
+        set2_noCount++;
+    }if (set2_q10_yes.isSelected()) {
+        set2_yesCount++;
+    } else if (set2_q10_no.isSelected()) {
+        set2_noCount++;
+    }
+            //set 3
+    if (set3_q1_yes.isSelected()) {
+        set3_yesCount++;       
+    } else if (set3_q1_no.isSelected()) {
+        set3_noCount++;
+    }if (set3_q2_yes.isSelected()) {
+        set3_yesCount++;
+    } else if (set3_q2_no.isSelected()) {
+        set3_noCount++;
+    }if (set3_q3_yes.isSelected()) {
+        set3_yesCount++;
+    } else if (set3_q3_no.isSelected()) {
+        set3_noCount++;
+    }if (set3_q4_yes.isSelected()) {
+        set3_yesCount++;
+    } else if (set3_q4_no.isSelected()) {
+        set3_noCount++;
+    }if (set3_q5_yes.isSelected()) {
+        set3_yesCount++;
+    } else if (set3_q5_no.isSelected()) {
+        set3_noCount++;
+    }if (set3_q6_yes.isSelected()) {
+        set3_yesCount++;
+    } else if (set3_q6_no.isSelected()) {
+        set3_noCount++;
+    }if (set3_q7_yes.isSelected()) {
+        set3_yesCount++;
+    } else if (set3_q7_no.isSelected()) {
+        set3_noCount++;
+    }if (set3_q8_yes.isSelected()) {
+        set3_yesCount++;
+    } else if (set3_q8_no.isSelected()) {
+        set3_noCount++;
+    }if (set3_q9_yes.isSelected()) {
+        set3_yesCount++;
+    } else if (set3_q9_no.isSelected()) {
+        set3_noCount++;
+    }if (set3_q10_yes.isSelected()) {
+        set3_yesCount++;
+    } else if (set3_q10_no.isSelected()) {
+        set3_noCount++;
+    }
+    
+    // set 4 
+    if (set4_q1_yes.isSelected()) {
+        set4_yesCount++;       
+    } else if (set4_q1_no.isSelected()) {
+        set4_noCount++;
+    }if (set4_q2_yes.isSelected()) {
+        set4_yesCount++;
+    } else if (set4_q2_no.isSelected()) {
+        set4_noCount++;
+    }if (set4_q3_yes.isSelected()) {
+        set4_yesCount++;
+    } else if (set4_q3_no.isSelected()) {
+        set4_noCount++;
+    }if (set4_q4_yes.isSelected()) {
+        set4_yesCount++;
+    } else if (set4_q4_no.isSelected()) {
+        set4_noCount++;
+    }if (set4_q5_yes.isSelected()) {
+        set4_yesCount++;
+    } else if (set4_q5_no.isSelected()) {
+        set4_noCount++;
+    }if (set4_q6_yes.isSelected()) {
+        set4_yesCount++;
+    } else if (set4_q6_no.isSelected()) {
+        set4_noCount++;
+    }if (set4_q7_yes.isSelected()) {
+        set4_yesCount++;
+    } else if (set4_q7_no.isSelected()) {
+        set4_noCount++;
+    }if (set4_q8_yes.isSelected()) {
+        set4_yesCount++;
+    } else if (set4_q8_no.isSelected()) {
+        set4_noCount++;
+    }if (set4_q9_yes.isSelected()) {
+        set4_yesCount++;
+    } else if (set4_q9_no.isSelected()) {
+        set4_noCount++;
+    }if (set4_q10_yes.isSelected()) {
+        set4_yesCount++;
+    } else if (set4_q10_no.isSelected()) {
+        set4_noCount++;
+    }
+    
+    // set 5
+    if (set5_q1_yes.isSelected()) {
+        set5_yesCount++;       
+    } else if (set5_q1_no.isSelected()) {
+        set5_noCount++;
+    }if (set5_q2_yes.isSelected()) {
+        set5_yesCount++;
+    } else if (set5_q2_no.isSelected()) {
+        set5_noCount++;
+    }if (set5_q3_yes.isSelected()) {
+        set5_yesCount++;
+    } else if (set5_q3_no.isSelected()) {
+        set5_noCount++;
+    }if (set5_q4_yes.isSelected()) {
+        set5_yesCount++;
+    } else if (set5_q4_no.isSelected()) {
+        set5_noCount++;
+    }if (set5_q5_yes.isSelected()) {
+        set5_yesCount++;
+    } else if (set5_q5_no.isSelected()) {
+        set5_noCount++;
+    }if (set5_q6_yes.isSelected()) {
+        set5_yesCount++;
+    } else if (set5_q6_no.isSelected()) {
+        set5_noCount++;
+    }if (set5_q7_yes.isSelected()) {
+        set5_yesCount++;
+    } else if (set5_q7_no.isSelected()) {
+        set5_noCount++;
+    }if (set5_q8_yes.isSelected()) {
+        set5_yesCount++;
+    } else if (set5_q8_no.isSelected()) {
+        set5_noCount++;
+    }if (set5_q9_yes.isSelected()) {
+        set5_yesCount++;
+    } else if (set5_q9_no.isSelected()) {
+        set5_noCount++;
+    }if (set5_q10_yes.isSelected()) {
+        set5_yesCount++;
+    } else if (set5_q10_no.isSelected()) {
+        set5_noCount++;
+    }
+    
+    // set 6
+    if (set6_q1_yes.isSelected()) {
+        set6_yesCount++;       
+    } else if (set6_q1_no.isSelected()) {
+        set6_noCount++;
+    }if (set6_q2_yes.isSelected()) {
+        set6_yesCount++;
+    } else if (set6_q2_no.isSelected()) {
+        set6_noCount++;
+    }if (set6_q3_yes.isSelected()) {
+        set6_yesCount++;
+    } else if (set6_q3_no.isSelected()) {
+        set6_noCount++;
+    }if (set6_q4_yes.isSelected()) {
+        set6_yesCount++;
+    } else if (set6_q4_no.isSelected()) {
+        set6_noCount++;
+    }if (set6_q5_yes.isSelected()) {
+        set6_yesCount++;
+    } else if (set6_q5_no.isSelected()) {
+        set6_noCount++;
+    }if (set6_q6_yes.isSelected()) {
+        set6_yesCount++;
+    } else if (set6_q6_no.isSelected()) {
+        set6_noCount++;
+    }if (set6_q7_yes.isSelected()) {
+        set6_yesCount++;
+    } else if (set6_q7_no.isSelected()) {
+        set6_noCount++;
+    }if (set6_q8_yes.isSelected()) {
+        set6_yesCount++;
+    } else if (set6_q8_no.isSelected()) {
+        set6_noCount++;
+    }if (set6_q9_yes.isSelected()) {
+        set6_yesCount++;
+    } else if (set6_q9_no.isSelected()) {
+        set6_noCount++;
+    }if (set6_q10_yes.isSelected()) {
+        set6_yesCount++;
+    } else if (set6_q10_no.isSelected()) {
+        set6_noCount++;
+    }
+    
+    // set 7
+    if (set7_q1_yes.isSelected()) {
+        set7_yesCount++;       
+    } else if (set7_q1_no.isSelected()) {
+        set7_noCount++;
+    }if (set7_q2_yes.isSelected()) {
+        set7_yesCount++;
+    } else if (set7_q2_no.isSelected()) {
+        set7_noCount++;
+    }if (set7_q3_yes.isSelected()) {
+        set7_yesCount++;
+    } else if (set7_q3_no.isSelected()) {
+        set7_noCount++;
+    }if (set7_q4_yes.isSelected()) {
+        set7_yesCount++;
+    } else if (set7_q4_no.isSelected()) {
+        set7_noCount++;
+    }if (set7_q5_yes.isSelected()) {
+        set7_yesCount++;
+    } else if (set7_q5_no.isSelected()) {
+        set7_noCount++;
+    }if (set7_q6_yes.isSelected()) {
+        set7_yesCount++;
+    } else if (set7_q6_no.isSelected()) {
+        set7_noCount++;
+    }if (set7_q7_yes.isSelected()) {
+        set7_yesCount++;
+    } else if (set7_q7_no.isSelected()) {
+        set7_noCount++;
+    }if (set7_q8_yes.isSelected()) {
+        set7_yesCount++;
+    } else if (set7_q8_no.isSelected()) {
+        set7_noCount++;
+    }if (set7_q9_yes.isSelected()) {
+        set7_yesCount++;
+    } else if (set7_q9_no.isSelected()) {
+        set7_noCount++;
+    }if (set7_q10_yes.isSelected()) {
+        set7_yesCount++;
+    } else if (set7_q10_no.isSelected()) {
+        set7_noCount++;
+    }
+    
+    // set 8
+    if (set8_q1_yes.isSelected()) {
+        set8_yesCount++;       
+    } else if (set8_q1_no.isSelected()) {
+        set8_noCount++;
+    }if (set8_q2_yes.isSelected()) {
+        set8_yesCount++;
+    } else if (set8_q2_no.isSelected()) {
+        set8_noCount++;
+    }if (set8_q3_yes.isSelected()) {
+        set8_yesCount++;
+    } else if (set8_q3_no.isSelected()) {
+        set8_noCount++;
+    }if (set8_q4_yes.isSelected()) {
+        set8_yesCount++;
+    } else if (set8_q4_no.isSelected()) {
+        set8_noCount++;
+    }if (set8_q5_yes.isSelected()) {
+        set8_yesCount++;
+    } else if (set8_q5_no.isSelected()) {
+        set8_noCount++;
+    }if (set8_q6_yes.isSelected()) {
+        set8_yesCount++;
+    } else if (set8_q6_no.isSelected()) {
+        set8_noCount++;
+    }if (set8_q7_yes.isSelected()) {
+        set8_yesCount++;
+    } else if (set8_q7_no.isSelected()) {
+        set8_noCount++;
+    }if (set8_q8_yes.isSelected()) {
+        set8_yesCount++;
+    } else if (set8_q8_no.isSelected()) {
+        set8_noCount++;
+    }if (set8_q9_yes.isSelected()) {
+        set8_yesCount++;
+    } else if (set8_q9_no.isSelected()) {
+        set8_noCount++;
+    }if (set8_q10_yes.isSelected()) {
+        set8_yesCount++;
+    } else if (set8_q10_no.isSelected()) {
+        set8_noCount++;
+    }
+    
+        // set 9
+    if (set9_q1_yes.isSelected()) {
+        set9_yesCount++;       
+    } else if (set9_q1_no.isSelected()) {
+        set9_noCount++;
+    }if (set9_q2_yes.isSelected()) {
+        set9_yesCount++;
+    } else if (set9_q2_no.isSelected()) {
+        set9_noCount++;
+    }if (set9_q3_yes.isSelected()) {
+        set9_yesCount++;
+    } else if (set9_q3_no.isSelected()) {
+        set9_noCount++;
+    }if (set9_q4_yes.isSelected()) {
+        set9_yesCount++;
+    } else if (set9_q4_no.isSelected()) {
+        set9_noCount++;
+    }if (set9_q5_yes.isSelected()) {
+        set9_yesCount++;
+    } else if (set9_q5_no.isSelected()) {
+        set9_noCount++;
+    }if (set9_q6_yes.isSelected()) {
+        set9_yesCount++;
+    } else if (set9_q6_no.isSelected()) {
+        set9_noCount++;
+    }if (set9_q7_yes.isSelected()) {
+        set9_yesCount++;
+    } else if (set9_q7_no.isSelected()) {
+        set9_noCount++;
+    }if (set9_q8_yes.isSelected()) {
+        set9_yesCount++;
+    } else if (set9_q8_no.isSelected()) {
+        set9_noCount++;
+    }if (set9_q9_yes.isSelected()) {
+        set9_yesCount++;
+    } else if (set9_q9_no.isSelected()) {
+        set9_noCount++;
+    }if (set9_q10_yes.isSelected()) {
+        set9_yesCount++;
+    } else if (set9_q10_no.isSelected()) {
+        set9_noCount++;
+    }
+    
+        //computation process
+        double total1 = (set1_yesCount / 10)* 100;
+        double total2 = (set2_yesCount / 10)* 100;
+        double total3 = (set3_yesCount / 10)* 100;  
+        double total4 = (set4_yesCount / 10)* 100;
+        double total5 = (set5_yesCount / 10)* 100;
+        double total6 = (set6_yesCount / 10)* 100; 
+        double total7 = (set7_yesCount / 10)* 100;
+        double total8 = (set8_yesCount / 10)* 100; 
+        double total9 = (set9_yesCount / 10)* 100; 
+        
+        System.out.println(total1);
+        System.out.println(total2);
+        System.out.println(total3);
+        System.out.println(total4);
+        System.out.println(total5);
+        System.out.println(total6);
+        System.out.println(total7);
+        System.out.println(total8);
+        System.out.println(total9);
+    
+String set1_result = String.valueOf(total1);
+String set2_result = String.valueOf(total2);
+String set3_result = String.valueOf(total3); 
+String set4_result = String.valueOf(total4);
+String set5_result = String.valueOf(total5);
+String set6_result = String.valueOf(total6); 
+String set7_result = String.valueOf(total7);
+String set8_result = String.valueOf(total8);
+String set9_result = String.valueOf(total9);
+
+advising_result advising_result = new advising_result();
+advising_result.lbl_bsis.setText(set1_result+" %");
+advising_result.lbl_btvted.setText(set2_result+" %");
+advising_result.lbl_entrep.setText(set3_result+" %");
+advising_result.lbl_bped.setText(set4_result+" %");
+advising_result.lbl_bstm.setText(set5_result+" %");
+advising_result.lbl_crim.setText(set6_result+" %");
+advising_result.lbl_bscpe.setText(set7_result+" %");
+advising_result.lbl_bsais.setText(set8_result+" %");
+advising_result.lbl_Pshyc.setText(set9_result+" %");
+advising_result.setVisible(true);
+
+}else{
+    JOptionPane.showMessageDialog(null, "Please fill-up all the question");
+} 

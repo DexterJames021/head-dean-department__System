@@ -1,0 +1,44 @@
+
+    Connection conn;
+    PreparedStatement pst;
+    //ResultSet rs;
+    
+ 
+    public Register() {
+        initComponents();
+        conn = HeadDeanDepartment_system.connect();
+    }
+
+
+
+
+        String name = reg_name.getText();
+       // String date = reg_date.getText();
+        String user = reg_username.getText();
+        String pass = reg_password.getText();
+        String sqlQuery = "INSERT INTO registration(name,username,password) VALUES('"+reg_name+"','"+reg_username+"','"+reg_password+"')"; 
+        
+        try {
+            
+            pst = conn.prepareStatement(sqlQuery);
+            if (name.isEmpty() || user.isEmpty() || pass.isEmpty()) {
+                JOptionPane.showMessageDialog(null, "Warning: All data is Required");
+            } else {
+                JOptionPane.showMessageDialog(null, "Registration successful");
+                pst.execute();
+                reg_name.getText();
+              //  reg_date.getText();
+                reg_username.getText();
+                reg_password.getText();
+                this.dispose();
+                new advising_form().show();
+            }
+
+        } catch (SQLException ex) {
+            Logger.getLogger(Register.class.getName()).log(Level.SEVERE, null, ex);
+        }
+
+    }    
+
+
+      new Login().show();

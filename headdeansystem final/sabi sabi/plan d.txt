@@ -1,0 +1,38 @@
+yung total result ilalagay sa database
+save to database
+result jframe = didisplay total result
+
+
+// import necessary JDBC classes
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+// define MySQL database connection parameters
+String url = "jdbc:mysql://localhost:3306/mydatabase";
+String user = "myusername";
+String password = "mypassword";
+
+// establish database connection
+try (Connection connection = DriverManager.getConnection(url, user, password)) {
+
+  // define SQL query to insert values into table
+  String sql = "INSERT INTO mytable (set1_result, set2_result, set3_result) VALUES (?, ?, ?)";
+
+  // create prepared statement with parameter placeholders
+  PreparedStatement statement = connection.prepareStatement(sql);
+
+  // set parameter values
+  statement.setInt(1, set1_result);
+  statement.setInt(2, set2_result);
+  statement.setInt(3, set3_result);
+
+  // execute query
+  statement.executeUpdate();
+
+  System.out.println("Values inserted successfully.");
+
+} catch (SQLException e) {
+  e.printStackTrace();
+}

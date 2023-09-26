@@ -1,0 +1,15 @@
+FormTwo frmtwo = new FormTwo();
+frmtwo.jlabel1.setText(jTextField1.getText());
+frmtwo.jlabel2.setText(jTextField2.getText());
+frmtwo.setVisible(true);
+
+
+   FormTwo frmtwo = new FormTwo();
+frmtwo.jLabel2.setText(set1_q1_yes.getText());
+frmtwo.jLabel3.setText(set1_q2_yes.getText());
+frmtwo.jLabel3.setText(set1_q3_yes.getText());
+frmtwo.setVisible(true);  
+
+   // System.out.println("Values inserted successfully.");
+   // new result().show();
+   // this.dispose();

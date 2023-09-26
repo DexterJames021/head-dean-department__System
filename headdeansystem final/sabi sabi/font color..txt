@@ -1,0 +1,26 @@
+FONT: tahoma 
+Yu gothic
+Yu gothic UI
+
+COLORS:
+
+yellow = #FFC107 
+shadow yellow = #FFA000
+
+navy = #003399
+blue = 29B6f6
+shadow #0288D1
+
+red = #FF5252
+shadow = #F44336
+
+grey = #727272
+dark = #212121
+
+white = #FAFBFC
+light grey = #FSF7FA
+
+
+green - 14C474
+008FA5
+dask green - 03b098

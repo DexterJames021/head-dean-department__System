@@ -1,0 +1,110 @@
+private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        // TODO add your handling code here:
+        
+    int set1_yesCount = 0;
+    int set1_noCount = 0;
+    
+    //set 2 variable
+    int set2_yesCount = 0;
+    int set2_noCount = 0;
+
+    //set 3 variable
+    int set3_yesCount = 0;
+    int set3_noCount = 0;
+
+     //set 1
+    if (set1_q1_yes.isSelected()) {
+        set1_yesCount++;       
+    } else if (set1_q1_no.isSelected()) {
+        set1_noCount++;
+    }
+    if (set1_q2_yes.isSelected()) {
+        set1_yesCount++;
+    } else if (set1_q2_no.isSelected()) {
+        set1_noCount++;
+    }
+    if (set1_q3_yes.isSelected()) {
+        set1_yesCount++;
+    } else if (set1_q3_no.isSelected()) {
+        set1_noCount++;
+    }
+        
+    //set 2     
+       if (set2_q1_yes.isSelected()) {
+        set2_yesCount++;
+    } else if (set2_q1_no.isSelected()) {
+        set2_noCount++;
+    }
+       if (set2_q2_yes.isSelected()) {
+        set2_yesCount++;
+    } else if (set2_q2_no.isSelected()) {
+        set2_noCount++;
+    }       if (set2_q3_yes.isSelected()) {
+        set2_yesCount++;
+    } else if (set2_q3_no.isSelected()) {
+        set2_noCount++;
+    }
+    
+        //set 3     
+       if (set3_q1_yes.isSelected()) {
+        set3_yesCount++;
+    } else if (set3_q1_no.isSelected()) {
+        set3_noCount++;
+    }
+       if (set3_q2_yes.isSelected()) {
+        set3_yesCount++;
+    } else if (set3_q2_no.isSelected()) {
+        set3_noCount++;
+    }
+       if (set3_q3_yes.isSelected()) {
+        set3_yesCount++;
+    } else if (set3_q3_no.isSelected()) {
+        set3_noCount++;
+    }
+      
+       int set1_result = set1_yesCount; 
+       int set2_result = set1_yesCount; 
+       int set3_result = set1_yesCount;       
+
+  try{
+        String sqlQuery = "INSERT INTO advising_result(set1_total,set2_total,set3_total)VALUES ('"+set1_result+","+set2_result+","+set3_result+"')";
+         pst  = conn.prepareStatement(sqlQuery);
+
+            // set parameter values
+            pst.setInt(1, set1_result);
+            pst.setInt(1, set2_result);
+            pst.setInt(1, set3_result);
+
+  // execute query
+  pst.executeUpdate();
+
+  System.out.println("Values inserted successfully.");
+
+}catch (SQLException e) {
+              Logger.getLogger(ewan_ko_ba.class.getName()).log(Level.SEVERE, null, e);
+
+}
+       
+    } 
+
+
+// sawada salamt
+
+try {
+    String sqlQuery = "INSERT INTO advising_result(set1_total,set2_total,set3_total) VALUES(?,?,?)";
+    pst = conn.prepareStatement(sqlQuery);
+
+    // set parameter values
+    pst.setInt(1, set1_yesCount);
+    pst.setInt(2, set2_yesCount);
+    pst.setInt(3, set3_yesCount);
+
+    // execute query
+    pst.executeUpdate();
+
+    System.out.println("Values inserted successfully.");
+} catch (SQLException e) {
+    Logger.getLogger(ewan_ko_ba.class.getName()).log(Level.SEVERE, null, e);
+}
+
+

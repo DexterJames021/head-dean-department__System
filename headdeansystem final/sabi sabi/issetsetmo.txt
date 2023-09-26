@@ -1,0 +1,11 @@
+                enrollment_result enrollment_result = new enrollment_result();
+                enrollment_result.lbl_id.setText(txt_studentNumber+"");
+                enrollment_result.lbl_name.setText(txt_fullname+"");
+                enrollment_result.lbl_course.setText(cb_course+"");
+                enrollment_result.lbl_enrollment.setText(txt_enrollmentDate+"");
+                enrollment_result.lbl_birthdate.setText(txt_birthDate+"");
+                enrollment_result.lbl_yearlevel.setText(txt_yearlevel+"");
+                enrollment_result.lbl_parent.setText(txt_phoneNumber+"");
+                enrollment_result.lbl_gender.setText(gender+"");
+                enrollment_result.lbl_address.setText(txt_address+"");
+enrollment_result.setVisible(true);

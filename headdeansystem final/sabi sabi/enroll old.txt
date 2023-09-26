@@ -1,0 +1,112 @@
+    String gender;
+    public Enrollment_form() {
+        initComponents();
+        conn = HeadDeanDepartment_system.connect();
+    
+    groupRadio();
+    }
+    
+    public void groupRadio(){
+    gender_group.add(maleRadio);
+    gender_group.add(femaleRadio);
+    }
+
+
+private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {        
+       SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+        String enrollmentDate = dateFormat.format(txt_enrollmentDate.getDate());
+        String birthDate = dateFormat.format(txt_birthDate.getDate());
+        String idnumber = txt_studentNumber.getText();
+        String fullname = txt_fullname.getText();
+        String course = cb_course.getSelectedItem().toString();
+        String parentNumber = txt_phoneNumber.getText();
+        String yearlevel = txt_yearlevel.getText();
+        String address = txt_address.getText();
+        String sqlQuery = "INSERT INTO enrollment_info(id_number,fullname,enrollment_date,birthdate,course,yearlevel,parent_number,gender,address) VALUES('"+idnumber+"','"+fullname+"','"+enrollmentDate+"','"+birthDate+"','"+course+"','"+yearlevel+"','"+parentNumber+"','"+gender+"','"+address+"')"; 
+
+        try {
+            pst = conn.prepareStatement(sqlQuery);
+            if (idnumber.isEmpty() ||fullname.isEmpty() ||enrollmentDate.isEmpty() || course.isEmpty() ||birthDate.isEmpty() ||yearlevel.isEmpty() ||parentNumber.isEmpty() || gender.isEmpty() || address.isEmpty()) {
+               
+                Color error = new Color(255,82,82);
+               lbl_fullname.setForeground(error);
+               lbl_date.setForeground(error);
+               lbl_bd.setForeground(error);
+               lbl_course.setForeground(error);
+               lbl_parent.setForeground(error);
+               lbl_yearlevel.setForeground(error);
+               lbl_gender.setForeground(error);
+               lbl_address.setForeground(error);
+            }
+            if(fullname.isEmpty()){           
+               Color error = new Color(255,82,82);
+               lbl_fullname.setForeground(error);
+            
+            }else if(enrollmentDate.isEmpty()){           
+               Color error = new Color(255,82,82);
+               lbl_date.setForeground(error);
+            
+            } else if(birthDate.isEmpty()){           
+               Color error = new Color(255,82,82);
+               lbl_bd.setForeground(error);
+            
+            } else if(course.isEmpty()){           
+               Color error = new Color(255,82,82);
+               lbl_course.setForeground(error);
+            
+            }else if(parentNumber.isEmpty()){           
+               Color error = new Color(255,82,82);
+               lbl_parent.setForeground(error);
+            
+            }else if(yearlevel.isEmpty()){           
+               Color error = new Color(255,82,82);
+               lbl_yearlevel.setForeground(error);
+            
+            }else if(gender.isEmpty()){           
+               Color error = new Color(255,82,82);
+               lbl_gender.setForeground(error);
+            
+            }else if(address.isEmpty()){           
+               Color error = new Color(255,82,82);
+               lbl_address.setForeground(error);
+            
+            }  else {
+                JOptionPane.showMessageDialog(null, "Enrollment successful");
+                pst.execute();
+                txt_enrollmentDate.getDate();
+                txt_birthDate.getDate();
+                txt_studentNumber.getText();
+                txt_fullname.getText();
+                cb_course.getSelectedItem().toString();
+                txt_phoneNumber.getText();
+                txt_yearlevel.getText();
+                txt_address.getText();   
+                
+                String result_id = txt_studentNumber.getText() ;
+                String result_name =  txt_fullname.getText();
+                Date result_date = txt_enrollmentDate.getDate();
+                String result_course =cb_course.getSelectedItem().toString();
+                Date result_bd = txt_birthDate.getDate();
+               // String result_gender = txt_birthDate.getText();
+                String result_parent = txt_phoneNumber.getText();
+                String result_yearlevel = txt_yearlevel.getText();
+                String result_address =  txt_address.getText();   
+                System.out.println(result_id +"\n"+ result_name +"\n"+ result_date  +"\n"+ result_course +"\n"+ result_bd  +"\n"+ result_parent +"\n"+ result_yearlevel +"\n"+ result_address);
+                
+               enrollment_result result = new enrollment_result();
+               enrollment_result.res_id.setText(result_id +"");
+               enrollment_result.res_name.setText(result_name +"");
+               enrollment_result.res_enrollment.setText(result_date +"");
+               enrollment_result.res_course.setText(result_course +"");
+               enrollment_result.res_gender.setText(gender +"");
+               enrollment_result.res_birthdate.setText(result_bd +"");
+               enrollment_result.res_parent.setText(result_parent +"");
+               enrollment_result.res_yearlevel.setText(result_yearlevel +"");
+               enrollment_result.res_address.setText(result_address +"");
+               this.setVisible(false);
+               result.setVisible(true);
+            }
+        } catch (HeadlessException | SQLException ex) {
+         JOptionPane.showMessageDialog(rootPane, ex);
+        }
+}
